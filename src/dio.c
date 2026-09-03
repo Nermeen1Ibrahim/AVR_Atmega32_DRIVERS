@@ -79,9 +79,9 @@ void	DIO_voidSetPortValue		(u8 PortId,u8 Value){
 	if(PortId<4){
 		switch(PortId){
 			case DPORTA:PORTA=Value;break;
-			case DPORTB:PORTA=Value;break;
-			case DPORTC:PORTA=Value;break;
-			case DPORTD:PORTA=Value;break;
+			case DPORTB:PORTB=Value;break;
+			case DPORTC:PORTC=Value;break;
+			case DPORTD:PORTD=Value;break;
 		}
 	}
 	else{}
